@@ -1,0 +1,2352 @@
+:root {
+    --background1: rgba(255, 255, 255, 0.3);
+    /* Use rgba for transparency */
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    background-color: var(--background1);
+    margin: 0;
+}
+
+.hello-container {
+    width: 25vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hello-screen-container {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+.hello-screen-container.slide-out {
+    transform: translateY(-100%); /* Slide out to the top */
+    opacity: 0; /* Fade out */
+}
+
+.cls-1 {
+    fill: url(#linear-gradient);
+}
+
+.cls-2 {
+    fill: url(#linear-gradient-2);
+}
+
+.cls-3 {
+    fill: url(#linear-gradient-3);
+}
+
+.cls-4 {
+    fill: url(#linear-gradient-4);
+}
+
+.cls-5 {
+    fill: url(#linear-gradient-5);
+}
+
+.cls-6 {
+    fill: url(#linear-gradient-6);
+}
+
+.cls-7 {
+    fill: url(#linear-gradient-7);
+}
+
+.cls-8 {
+    fill: url(#linear-gradient-8);
+}
+
+.cls-9 {
+    fill: url(#linear-gradient-9);
+}
+
+.cls-10 {
+    fill: url(#linear-gradient-10);
+}
+
+.cls-11 {
+    fill: url(#linear-gradient-11);
+}
+
+.cls-12 {
+    fill: url(#linear-gradient-12);
+}
+
+.cls-13 {
+    fill: url(#linear-gradient-13);
+}
+
+.cls-14 {
+    fill: url(#linear-gradient-14);
+}
+
+.cls-15 {
+    fill: url(#linear-gradient-15);
+}
+
+.cls-16 {
+    fill: url(#linear-gradient-16);
+}
+
+.cls-17 {
+    fill: url(#linear-gradient-17);
+}
+
+.cls-18 {
+    fill: url(#linear-gradient-18);
+}
+
+.cls-19 {
+    fill: url(#linear-gradient-19);
+}
+
+.cls-20 {
+    fill: url(#linear-gradient-20);
+}
+
+.cls-21 {
+    fill: url(#linear-gradient-21);
+}
+
+.cls-22 {
+    fill: url(#linear-gradient-22);
+}
+
+.cls-23 {
+    fill: url(#linear-gradient-23);
+}
+
+.cls-24 {
+    fill: url(#linear-gradient-24);
+}
+
+.cls-25 {
+    fill: url(#linear-gradient-25);
+}
+
+.cls-26 {
+    fill: url(#linear-gradient-26);
+}
+
+.cls-27 {
+    fill: url(#linear-gradient-27);
+}
+
+.cls-28 {
+    fill: url(#linear-gradient-28);
+}
+
+.cls-29 {
+    fill: url(#linear-gradient-29);
+}
+
+.cls-30 {
+    fill: url(#linear-gradient-30);
+}
+
+.cls-31 {
+    fill: url(#linear-gradient-31);
+}
+
+.cls-32 {
+    fill: url(#linear-gradient-32);
+}
+
+.cls-33 {
+    fill: url(#linear-gradient-33);
+}
+
+.cls-34 {
+    fill: url(#linear-gradient-34);
+}
+
+.cls-35 {
+    fill: url(#linear-gradient-35);
+}
+
+.cls-36 {
+    fill: url(#linear-gradient-36);
+}
+
+.cls-37 {
+    fill: url(#linear-gradient-37);
+}
+
+.cls-38 {
+    fill: url(#linear-gradient-38);
+}
+
+.cls-39 {
+    fill: url(#linear-gradient-39);
+}
+
+.cls-40 {
+    fill: url(#linear-gradient-40);
+}
+
+.cls-41 {
+    fill: url(#linear-gradient-41);
+}
+
+.cls-42 {
+    fill: url(#linear-gradient-42);
+}
+
+.cls-43 {
+    fill: url(#linear-gradient-43);
+}
+
+.cls-44 {
+    fill: url(#linear-gradient-44);
+}
+
+.cls-45 {
+    fill: url(#linear-gradient-45);
+}
+
+.cls-46 {
+    fill: url(#linear-gradient-46);
+}
+
+.cls-47 {
+    fill: url(#linear-gradient-47);
+}
+
+.cls-48 {
+    fill: url(#linear-gradient-48);
+}
+
+.cls-49 {
+    fill: url(#linear-gradient-49);
+}
+
+.cls-50 {
+    fill: url(#linear-gradient-50);
+}
+
+.cls-51 {
+    fill: url(#linear-gradient-51);
+}
+
+.cls-52 {
+    fill: url(#linear-gradient-52);
+}
+
+.cls-53 {
+    fill: url(#linear-gradient-53);
+}
+
+.cls-54 {
+    fill: url(#linear-gradient-54);
+}
+
+.cls-55 {
+    fill: url(#linear-gradient-55);
+}
+
+.cls-56 {
+    fill: url(#linear-gradient-56);
+}
+
+.cls-57 {
+    fill: url(#linear-gradient-57);
+}
+
+.cls-58 {
+    fill: url(#linear-gradient-58);
+}
+
+.cls-59 {
+    fill: url(#linear-gradient-59);
+}
+
+.cls-60 {
+    fill: url(#linear-gradient-60);
+}
+
+.cls-61 {
+    fill: url(#linear-gradient-61);
+}
+
+.cls-62 {
+    fill: url(#linear-gradient-62);
+}
+
+.cls-63 {
+    fill: url(#linear-gradient-63);
+}
+
+.cls-64 {
+    fill: url(#linear-gradient-64);
+}
+
+.cls-65 {
+    fill: url(#linear-gradient-65);
+}
+
+.cls-66 {
+    fill: url(#linear-gradient-66);
+}
+
+.cls-67 {
+    fill: url(#linear-gradient-67);
+}
+
+.cls-68 {
+    fill: url(#linear-gradient-68);
+}
+
+.cls-69 {
+    fill: url(#linear-gradient-69);
+}
+
+.cls-70 {
+    fill: url(#linear-gradient-70);
+}
+
+.cls-71 {
+    fill: url(#linear-gradient-71);
+}
+
+.cls-72 {
+    fill: url(#linear-gradient-72);
+}
+
+.cls-73 {
+    fill: url(#linear-gradient-73);
+}
+
+.cls-74 {
+    fill: url(#linear-gradient-74);
+}
+
+.cls-75 {
+    fill: url(#linear-gradient-75);
+}
+
+.cls-76 {
+    fill: url(#linear-gradient-76);
+}
+
+.cls-77 {
+    fill: url(#linear-gradient-77);
+}
+
+.cls-78 {
+    fill: url(#linear-gradient-78);
+}
+
+.cls-79 {
+    fill: url(#linear-gradient-79);
+}
+
+.cls-80 {
+    fill: url(#linear-gradient-80);
+}
+
+.cls-81 {
+    fill: url(#linear-gradient-81);
+}
+
+.cls-82 {
+    fill: url(#linear-gradient-82);
+}
+
+.cls-83 {
+    fill: url(#linear-gradient-83);
+}
+
+.cls-84 {
+    fill: url(#linear-gradient-84);
+}
+
+.cls-85 {
+    fill: url(#linear-gradient-85);
+}
+
+.cls-86 {
+    fill: url(#linear-gradient-86);
+}
+
+.cls-87 {
+    fill: url(#linear-gradient-87);
+}
+
+.cls-88 {
+    fill: url(#linear-gradient-88);
+}
+
+.cls-89 {
+    fill: url(#linear-gradient-89);
+}
+
+.cls-90 {
+    fill: url(#linear-gradient-90);
+}
+
+.cls-91 {
+    fill: url(#linear-gradient-91);
+}
+
+.cls-92 {
+    fill: url(#linear-gradient-92);
+}
+
+.cls-93 {
+    fill: url(#linear-gradient-93);
+}
+
+.cls-94 {
+    fill: url(#linear-gradient-94);
+}
+
+.cls-95 {
+    fill: url(#linear-gradient-95);
+}
+
+.cls-96 {
+    fill: url(#linear-gradient-96);
+}
+
+.cls-97 {
+    fill: url(#linear-gradient-97);
+}
+
+.cls-98 {
+    fill: url(#linear-gradient-98);
+}
+
+.cls-99 {
+    fill: url(#linear-gradient-99);
+}
+
+.cls-100 {
+    fill: url(#linear-gradient-100);
+}
+
+.cls-101 {
+    fill: url(#linear-gradient-101);
+}
+
+.cls-102 {
+    fill: url(#linear-gradient-102);
+}
+
+.cls-103 {
+    fill: url(#linear-gradient-103);
+}
+
+.cls-104 {
+    fill: url(#linear-gradient-104);
+}
+
+.cls-105 {
+    fill: url(#linear-gradient-105);
+}
+
+.cls-106 {
+    fill: url(#linear-gradient-106);
+}
+
+.cls-107 {
+    fill: url(#linear-gradient-107);
+}
+
+.cls-108 {
+    fill: url(#linear-gradient-108);
+}
+
+.cls-109 {
+    fill: url(#linear-gradient-109);
+}
+
+.cls-110 {
+    fill: url(#linear-gradient-110);
+}
+
+.cls-111 {
+    fill: url(#linear-gradient-111);
+}
+
+.cls-112 {
+    fill: url(#linear-gradient-112);
+}
+
+.cls-113 {
+    fill: url(#linear-gradient-113);
+}
+
+.cls-114 {
+    fill: url(#linear-gradient-114);
+}
+
+.cls-115 {
+    fill: url(#linear-gradient-115);
+}
+
+.cls-116 {
+    fill: url(#linear-gradient-116);
+}
+
+.cls-117 {
+    fill: url(#linear-gradient-117);
+}
+
+.cls-118 {
+    fill: url(#linear-gradient-118);
+}
+
+.cls-119 {
+    fill: url(#linear-gradient-119);
+}
+
+.cls-120 {
+    fill: url(#linear-gradient-120);
+}
+
+.cls-121 {
+    fill: url(#linear-gradient-121);
+}
+
+.cls-122 {
+    fill: url(#linear-gradient-122);
+}
+
+.cls-123 {
+    fill: url(#linear-gradient-123);
+}
+
+.cls-124 {
+    fill: url(#linear-gradient-124);
+}
+
+.cls-125 {
+    fill: url(#linear-gradient-125);
+}
+
+.cls-126 {
+    fill: url(#linear-gradient-126);
+}
+
+.cls-127 {
+    fill: url(#linear-gradient-127);
+}
+
+.cls-128 {
+    fill: url(#linear-gradient-128);
+}
+
+.cls-129 {
+    fill: url(#linear-gradient-129);
+}
+
+.cls-130 {
+    fill: url(#linear-gradient-130);
+}
+
+.cls-131 {
+    fill: url(#linear-gradient-131);
+}
+
+.cls-132 {
+    fill: url(#linear-gradient-132);
+}
+
+.cls-133 {
+    fill: url(#linear-gradient-133);
+}
+
+.cls-134 {
+    fill: url(#linear-gradient-134);
+}
+
+.cls-135 {
+    fill: url(#linear-gradient-135);
+}
+
+.cls-136 {
+    fill: url(#linear-gradient-136);
+}
+
+.cls-137 {
+    fill: url(#linear-gradient-137);
+}
+
+.cls-138 {
+    fill: url(#linear-gradient-138);
+}
+
+.cls-139 {
+    fill: url(#linear-gradient-139);
+}
+
+.cls-140 {
+    fill: url(#linear-gradient-140);
+}
+
+.cls-141 {
+    fill: url(#linear-gradient-141);
+}
+
+.cls-142 {
+    fill: url(#linear-gradient-142);
+}
+
+.cls-143 {
+    fill: url(#linear-gradient-143);
+}
+
+.cls-144 {
+    fill: url(#linear-gradient-144);
+}
+
+.cls-145 {
+    fill: url(#linear-gradient-145);
+}
+
+.cls-146 {
+    fill: url(#linear-gradient-146);
+}
+
+.cls-147 {
+    fill: url(#linear-gradient-147);
+}
+
+.cls-148 {
+    fill: url(#linear-gradient-148);
+}
+
+.cls-149 {
+    fill: url(#linear-gradient-149);
+}
+
+.cls-150 {
+    fill: url(#linear-gradient-150);
+}
+
+.cls-151 {
+    fill: url(#linear-gradient-151);
+}
+
+.cls-152 {
+    fill: url(#linear-gradient-152);
+}
+
+.cls-153 {
+    fill: url(#linear-gradient-153);
+}
+
+.cls-154 {
+    fill: url(#linear-gradient-154);
+}
+
+.cls-155 {
+    fill: url(#linear-gradient-155);
+}
+
+.cls-156 {
+    fill: url(#linear-gradient-156);
+}
+
+.cls-157 {
+    fill: url(#linear-gradient-157);
+}
+
+.cls-158 {
+    fill: url(#linear-gradient-158);
+}
+
+.cls-159 {
+    fill: url(#linear-gradient-159);
+}
+
+.cls-160 {
+    fill: url(#linear-gradient-160);
+}
+
+.cls-161 {
+    fill: url(#linear-gradient-161);
+}
+
+.cls-162 {
+    fill: url(#linear-gradient-162);
+}
+
+.cls-163 {
+    fill: url(#linear-gradient-163);
+}
+
+.cls-164 {
+    fill: url(#linear-gradient-164);
+}
+
+.cls-165 {
+    fill: url(#linear-gradient-165);
+}
+
+.cls-166 {
+    fill: url(#linear-gradient-166);
+}
+
+.cls-167 {
+    fill: url(#linear-gradient-167);
+}
+
+.cls-168 {
+    fill: url(#linear-gradient-168);
+}
+
+.cls-169 {
+    fill: url(#linear-gradient-169);
+}
+
+.cls-170 {
+    fill: url(#linear-gradient-170);
+}
+
+.cls-171 {
+    fill: url(#linear-gradient-171);
+}
+
+.cls-172 {
+    fill: url(#linear-gradient-172);
+}
+
+.cls-173 {
+    fill: url(#linear-gradient-173);
+}
+
+.cls-174 {
+    fill: url(#linear-gradient-174);
+}
+
+.cls-175 {
+    fill: url(#linear-gradient-175);
+}
+
+.cls-176 {
+    fill: url(#linear-gradient-176);
+}
+
+.cls-177 {
+    fill: url(#linear-gradient-177);
+}
+
+.cls-178 {
+    fill: url(#linear-gradient-178);
+}
+
+.cls-179 {
+    fill: url(#linear-gradient-179);
+}
+
+.cls-180 {
+    fill: url(#linear-gradient-180);
+}
+
+.cls-181 {
+    fill: url(#linear-gradient-181);
+}
+
+.cls-182 {
+    fill: url(#linear-gradient-182);
+}
+
+.cls-183 {
+    fill: url(#linear-gradient-183);
+}
+
+.cls-184 {
+    fill: url(#linear-gradient-184);
+}
+
+.cls-185 {
+    fill: url(#linear-gradient-185);
+}
+
+.cls-186 {
+    fill: url(#linear-gradient-186);
+}
+
+.cls-187 {
+    fill: url(#linear-gradient-187);
+}
+
+.cls-188 {
+    fill: url(#linear-gradient-188);
+}
+
+.cls-189 {
+    fill: url(#linear-gradient-189);
+}
+
+.cls-190 {
+    fill: url(#linear-gradient-190);
+}
+
+.cls-191 {
+    fill: url(#linear-gradient-191);
+}
+
+.cls-192 {
+    fill: url(#linear-gradient-192);
+}
+
+.cls-193 {
+    fill: url(#linear-gradient-193);
+}
+
+.cls-194 {
+    fill: url(#linear-gradient-194);
+}
+
+.cls-195 {
+    fill: url(#linear-gradient-195);
+}
+
+.cls-196 {
+    fill: url(#linear-gradient-196);
+}
+
+.cls-197 {
+    fill: url(#linear-gradient-197);
+}
+
+.cls-198 {
+    fill: url(#linear-gradient-198);
+}
+
+.cls-199 {
+    fill: url(#linear-gradient-199);
+}
+
+.cls-200 {
+    fill: url(#linear-gradient-200);
+}
+
+.cls-201 {
+    fill: url(#linear-gradient-201);
+}
+
+.cls-202 {
+    fill: url(#linear-gradient-202);
+}
+
+.cls-203 {
+    fill: url(#linear-gradient-203);
+}
+
+.cls-204 {
+    fill: url(#linear-gradient-204);
+}
+
+.cls-205 {
+    fill: url(#linear-gradient-205);
+}
+
+.cls-206 {
+    fill: url(#linear-gradient-206);
+}
+
+.cls-207 {
+    fill: url(#linear-gradient-207);
+}
+
+.cls-208 {
+    fill: url(#linear-gradient-208);
+}
+
+.cls-209 {
+    fill: url(#linear-gradient-209);
+}
+
+.cls-210 {
+    fill: url(#linear-gradient-210);
+}
+
+.cls-211 {
+    fill: url(#linear-gradient-211);
+}
+
+.cls-212 {
+    fill: url(#linear-gradient-212);
+}
+
+.cls-213 {
+    fill: url(#linear-gradient-213);
+}
+
+.cls-214 {
+    fill: url(#linear-gradient-214);
+}
+
+.cls-215 {
+    fill: url(#linear-gradient-215);
+}
+
+.cls-216 {
+    fill: url(#linear-gradient-216);
+}
+
+.cls-217 {
+    fill: url(#linear-gradient-217);
+}
+
+.cls-218 {
+    fill: url(#linear-gradient-218);
+}
+
+.cls-219 {
+    fill: url(#linear-gradient-219);
+}
+
+.cls-220 {
+    fill: url(#linear-gradient-220);
+}
+
+.cls-221 {
+    fill: url(#linear-gradient-221);
+}
+
+.cls-222 {
+    fill: url(#linear-gradient-222);
+}
+
+.cls-223 {
+    fill: url(#linear-gradient-223);
+}
+
+.cls-224 {
+    fill: url(#linear-gradient-224);
+}
+
+.cls-225 {
+    fill: url(#linear-gradient-225);
+}
+
+.cls-226 {
+    fill: url(#linear-gradient-226);
+}
+
+.cls-227 {
+    fill: url(#linear-gradient-227);
+}
+
+.cls-228 {
+    fill: url(#linear-gradient-228);
+}
+
+.cls-229 {
+    fill: url(#linear-gradient-229);
+}
+
+.cls-230 {
+    fill: url(#linear-gradient-230);
+}
+
+.cls-231 {
+    fill: url(#linear-gradient-231);
+}
+
+.cls-232 {
+    fill: url(#linear-gradient-232);
+}
+
+.cls-233 {
+    fill: url(#linear-gradient-233);
+}
+
+.cls-234 {
+    fill: url(#linear-gradient-234);
+}
+
+.cls-235 {
+    fill: url(#linear-gradient-235);
+}
+
+.cls-236 {
+    fill: url(#linear-gradient-236);
+}
+
+.cls-237 {
+    fill: url(#linear-gradient-237);
+}
+
+.cls-238 {
+    fill: url(#linear-gradient-238);
+}
+
+.cls-239 {
+    fill: url(#linear-gradient-239);
+}
+
+.cls-240 {
+    fill: url(#linear-gradient-240);
+}
+
+.cls-241 {
+    fill: url(#linear-gradient-241);
+}
+
+.cls-242 {
+    fill: url(#linear-gradient-242);
+}
+
+.cls-243 {
+    fill: url(#linear-gradient-243);
+}
+
+.cls-244 {
+    fill: url(#linear-gradient-244);
+}
+
+.cls-245 {
+    fill: url(#linear-gradient-245);
+}
+
+.cls-246 {
+    fill: url(#linear-gradient-246);
+}
+
+.cls-247 {
+    fill: url(#linear-gradient-247);
+}
+
+.cls-248 {
+    fill: url(#linear-gradient-248);
+}
+
+.cls-249 {
+    fill: url(#linear-gradient-249);
+}
+
+.cls-250 {
+    fill: url(#linear-gradient-250);
+}
+
+.cls-251 {
+    fill: url(#linear-gradient-251);
+}
+
+.cls-252 {
+    fill: url(#linear-gradient-252);
+}
+
+.cls-253 {
+    fill: url(#linear-gradient-253);
+}
+
+.cls-254 {
+    fill: url(#linear-gradient-254);
+}
+
+.cls-255 {
+    fill: url(#linear-gradient-255);
+}
+
+.cls-256 {
+    fill: url(#linear-gradient-256);
+}
+
+.cls-257 {
+    fill: url(#linear-gradient-257);
+}
+
+.cls-258 {
+    fill: url(#linear-gradient-258);
+}
+
+.cls-259 {
+    fill: url(#linear-gradient-259);
+}
+
+.cls-260 {
+    fill: url(#linear-gradient-260);
+}
+
+.cls-261 {
+    fill: url(#linear-gradient-261);
+}
+
+.cls-262 {
+    fill: url(#linear-gradient-262);
+}
+
+.cls-263 {
+    fill: url(#linear-gradient-263);
+}
+
+.cls-264 {
+    fill: url(#linear-gradient-264);
+}
+
+.cls-265 {
+    fill: url(#linear-gradient-265);
+}
+
+.cls-266 {
+    fill: url(#linear-gradient-266);
+}
+
+.cls-267 {
+    fill: url(#linear-gradient-267);
+}
+
+.cls-268 {
+    fill: url(#linear-gradient-268);
+}
+
+.cls-269 {
+    fill: url(#linear-gradient-269);
+}
+
+.cls-270 {
+    fill: url(#linear-gradient-270);
+}
+
+.cls-271 {
+    fill: url(#linear-gradient-271);
+}
+
+.cls-272 {
+    fill: url(#linear-gradient-272);
+}
+
+.cls-273 {
+    fill: url(#linear-gradient-273);
+}
+
+.cls-274 {
+    fill: url(#linear-gradient-274);
+}
+
+.cls-275 {
+    fill: url(#linear-gradient-275);
+}
+
+.cls-276 {
+    fill: url(#linear-gradient-276);
+}
+
+.cls-277 {
+    fill: url(#linear-gradient-277);
+}
+
+.cls-278 {
+    fill: url(#linear-gradient-278);
+}
+
+.cls-279 {
+    fill: url(#linear-gradient-279);
+}
+
+.cls-280 {
+    fill: url(#linear-gradient-280);
+}
+
+.cls-281 {
+    fill: url(#linear-gradient-281);
+}
+
+.cls-282 {
+    fill: url(#linear-gradient-282);
+}
+
+.cls-283 {
+    fill: url(#linear-gradient-283);
+}
+
+.cls-284 {
+    fill: url(#linear-gradient-284);
+}
+
+.cls-285 {
+    fill: url(#linear-gradient-285);
+}
+
+.cls-286 {
+    fill: url(#linear-gradient-286);
+}
+
+.cls-287 {
+    fill: url(#linear-gradient-287);
+}
+
+.cls-288 {
+    fill: url(#linear-gradient-288);
+}
+
+.cls-289 {
+    fill: url(#linear-gradient-289);
+}
+
+.cls-290 {
+    fill: url(#linear-gradient-290);
+}
+
+.cls-291 {
+    fill: url(#linear-gradient-291);
+}
+
+.cls-292 {
+    fill: url(#linear-gradient-292);
+}
+
+.cls-293 {
+    fill: url(#linear-gradient-293);
+}
+
+.cls-294 {
+    fill: url(#linear-gradient-294);
+}
+
+.cls-295 {
+    fill: url(#linear-gradient-295);
+}
+
+.cls-296 {
+    fill: url(#linear-gradient-296);
+}
+
+.cls-297 {
+    fill: url(#linear-gradient-297);
+}
+
+.cls-298 {
+    fill: url(#linear-gradient-298);
+}
+
+.cls-299 {
+    fill: url(#linear-gradient-299);
+}
+
+.cls-300 {
+    fill: url(#linear-gradient-300);
+}
+
+.cls-301 {
+    fill: url(#linear-gradient-301);
+}
+
+.cls-302 {
+    fill: url(#linear-gradient-302);
+}
+
+.cls-303 {
+    fill: url(#linear-gradient-303);
+}
+
+.cls-304 {
+    fill: url(#linear-gradient-304);
+}
+
+.cls-305 {
+    fill: url(#linear-gradient-305);
+}
+
+.cls-306 {
+    fill: url(#linear-gradient-306);
+}
+
+.cls-307 {
+    fill: url(#linear-gradient-307);
+}
+
+.cls-308 {
+    fill: url(#linear-gradient-308);
+}
+
+.cls-309 {
+    fill: url(#linear-gradient-309);
+}
+
+.cls-310 {
+    fill: url(#linear-gradient-310);
+}
+
+.cls-311 {
+    fill: url(#linear-gradient-311);
+}
+
+.cls-312 {
+    fill: url(#linear-gradient-312);
+}
+
+.cls-313 {
+    fill: url(#linear-gradient-313);
+}
+
+.cls-314 {
+    fill: url(#linear-gradient-314);
+}
+
+.cls-315 {
+    fill: url(#linear-gradient-315);
+}
+
+.cls-316 {
+    fill: url(#linear-gradient-316);
+}
+
+.cls-317 {
+    fill: url(#linear-gradient-317);
+}
+
+.cls-318 {
+    fill: url(#linear-gradient-318);
+}
+
+.cls-319 {
+    fill: url(#linear-gradient-319);
+}
+
+.cls-320 {
+    fill: url(#linear-gradient-320);
+}
+
+.cls-321 {
+    fill: url(#linear-gradient-321);
+}
+
+.cls-322 {
+    fill: url(#linear-gradient-322);
+}
+
+.cls-323 {
+    fill: url(#linear-gradient-323);
+}
+
+.cls-324 {
+    fill: url(#linear-gradient-324);
+}
+
+.cls-325 {
+    fill: url(#linear-gradient-325);
+}
+
+.cls-326 {
+    fill: url(#linear-gradient-326);
+}
+
+.cls-327 {
+    fill: url(#linear-gradient-327);
+}
+
+.cls-328 {
+    fill: url(#linear-gradient-328);
+}
+
+.cls-329 {
+    fill: url(#linear-gradient-329);
+}
+
+.cls-330 {
+    fill: url(#linear-gradient-330);
+}
+
+.cls-331 {
+    fill: url(#linear-gradient-331);
+}
+
+.cls-332 {
+    fill: url(#linear-gradient-332);
+}
+
+.cls-333 {
+    fill: url(#linear-gradient-333);
+}
+
+.cls-334 {
+    fill: url(#linear-gradient-334);
+}
+
+.cls-335 {
+    fill: url(#linear-gradient-335);
+}
+
+.cls-336 {
+    fill: url(#linear-gradient-336);
+}
+
+.cls-337 {
+    fill: url(#linear-gradient-337);
+}
+
+.cls-338 {
+    fill: url(#linear-gradient-338);
+}
+
+.cls-339 {
+    fill: url(#linear-gradient-339);
+}
+
+.cls-340 {
+    fill: url(#linear-gradient-340);
+}
+
+.cls-341 {
+    fill: url(#linear-gradient-341);
+}
+
+.cls-342 {
+    fill: url(#linear-gradient-342);
+}
+
+.cls-343 {
+    fill: url(#linear-gradient-343);
+}
+
+.cls-344 {
+    fill: url(#linear-gradient-344);
+}
+
+.cls-345 {
+    fill: url(#linear-gradient-345);
+}
+
+.cls-346 {
+    fill: url(#linear-gradient-346);
+}
+
+.cls-347 {
+    fill: url(#linear-gradient-347);
+}
+
+.cls-348 {
+    fill: url(#linear-gradient-348);
+}
+
+.cls-349 {
+    fill: url(#linear-gradient-349);
+}
+
+.cls-350 {
+    fill: url(#linear-gradient-350);
+}
+
+.cls-351 {
+    fill: url(#linear-gradient-351);
+}
+
+.cls-352 {
+    fill: url(#linear-gradient-352);
+}
+
+.cls-353 {
+    fill: url(#linear-gradient-353);
+}
+
+.cls-354 {
+    fill: url(#linear-gradient-354);
+}
+
+.cls-355 {
+    fill: url(#linear-gradient-355);
+}
+
+.cls-356 {
+    fill: url(#linear-gradient-356);
+}
+
+.cls-357 {
+    fill: url(#linear-gradient-357);
+}
+
+.cls-358 {
+    fill: url(#linear-gradient-358);
+}
+
+.cls-359 {
+    fill: url(#linear-gradient-359);
+}
+
+.cls-360 {
+    fill: url(#linear-gradient-360);
+}
+
+.cls-361 {
+    fill: url(#linear-gradient-361);
+}
+
+.cls-362 {
+    fill: url(#linear-gradient-362);
+}
+
+.cls-363 {
+    fill: url(#linear-gradient-363);
+}
+
+.cls-364 {
+    fill: url(#linear-gradient-364);
+}
+
+.cls-365 {
+    fill: url(#linear-gradient-365);
+}
+
+.cls-366 {
+    fill: url(#linear-gradient-366);
+}
+
+.cls-367 {
+    fill: url(#linear-gradient-367);
+}
+
+.cls-368 {
+    fill: url(#linear-gradient-368);
+}
+
+.cls-369 {
+    fill: url(#linear-gradient-369);
+}
+
+.cls-370 {
+    fill: url(#linear-gradient-370);
+}
+
+.cls-371 {
+    fill: url(#linear-gradient-371);
+}
+
+.cls-372 {
+    fill: url(#linear-gradient-372);
+}
+
+.cls-373 {
+    fill: url(#linear-gradient-373);
+}
+
+.cls-374 {
+    fill: url(#linear-gradient-374);
+}
+
+.cls-375 {
+    fill: url(#linear-gradient-375);
+}
+
+.cls-376 {
+    fill: url(#linear-gradient-376);
+}
+
+.cls-377 {
+    fill: url(#linear-gradient-377);
+}
+
+.cls-378 {
+    fill: url(#linear-gradient-378);
+}
+
+.cls-379 {
+    fill: url(#linear-gradient-379);
+}
+
+.cls-380 {
+    fill: url(#linear-gradient-380);
+}
+
+.cls-381 {
+    fill: url(#linear-gradient-381);
+}
+
+.cls-382 {
+    fill: url(#linear-gradient-382);
+}
+
+.cls-383 {
+    fill: url(#linear-gradient-383);
+}
+
+.cls-384 {
+    fill: url(#linear-gradient-384);
+}
+
+.cls-385 {
+    fill: url(#linear-gradient-385);
+}
+
+.cls-386 {
+    fill: url(#linear-gradient-386);
+}
+
+.cls-387 {
+    fill: url(#linear-gradient-387);
+}
+
+.cls-388 {
+    fill: url(#linear-gradient-388);
+}
+
+.cls-389 {
+    fill: url(#linear-gradient-389);
+}
+
+.cls-390 {
+    fill: url(#linear-gradient-390);
+}
+
+.cls-391 {
+    fill: url(#linear-gradient-391);
+}
+
+.cls-392 {
+    fill: url(#linear-gradient-392);
+}
+
+.cls-393 {
+    fill: url(#linear-gradient-393);
+}
+
+.cls-394 {
+    fill: url(#linear-gradient-394);
+}
+
+.cls-395 {
+    fill: url(#linear-gradient-395);
+}
+
+.cls-396 {
+    fill: url(#linear-gradient-396);
+}
+
+.cls-397 {
+    fill: url(#linear-gradient-397);
+}
+
+.cls-398 {
+    fill: url(#linear-gradient-398);
+}
+
+.cls-399 {
+    fill: url(#linear-gradient-399);
+}
+
+.cls-400 {
+    fill: url(#linear-gradient-400);
+}
+
+.cls-401 {
+    fill: url(#linear-gradient-401);
+}
+
+.cls-402 {
+    fill: url(#linear-gradient-402);
+}
+
+.cls-403 {
+    fill: url(#linear-gradient-403);
+}
+
+.cls-404 {
+    fill: url(#linear-gradient-404);
+}
+
+.cls-405 {
+    fill: url(#linear-gradient-405);
+}
+
+.cls-406 {
+    fill: url(#linear-gradient-406);
+}
+
+.cls-407 {
+    fill: url(#linear-gradient-407);
+}
+
+.cls-408 {
+    fill: url(#linear-gradient-408);
+}
+
+.cls-409 {
+    fill: url(#linear-gradient-409);
+}
+
+.cls-410 {
+    fill: url(#linear-gradient-410);
+}
+
+.cls-411 {
+    fill: url(#linear-gradient-411);
+}
+
+.cls-412 {
+    fill: url(#linear-gradient-412);
+}
+
+.cls-413 {
+    fill: url(#linear-gradient-413);
+}
+
+.cls-414 {
+    fill: url(#linear-gradient-414);
+}
+
+.cls-415 {
+    fill: url(#linear-gradient-415);
+}
+
+.cls-416 {
+    fill: url(#linear-gradient-416);
+}
+
+.cls-417 {
+    fill: url(#linear-gradient-417);
+}
+
+.cls-418 {
+    fill: url(#linear-gradient-418);
+}
+
+.cls-419 {
+    fill: url(#linear-gradient-419);
+}
+
+.cls-420 {
+    fill: url(#linear-gradient-420);
+}
+
+.cls-421 {
+    fill: url(#linear-gradient-421);
+}
+
+.cls-422 {
+    fill: url(#linear-gradient-422);
+}
+
+.cls-423 {
+    fill: url(#linear-gradient-423);
+}
+
+.cls-424 {
+    fill: url(#linear-gradient-424);
+}
+
+.cls-425 {
+    fill: url(#linear-gradient-425);
+}
+
+.cls-426 {
+    fill: url(#linear-gradient-426);
+}
+
+.cls-427 {
+    fill: url(#linear-gradient-427);
+}
+
+.cls-428 {
+    fill: url(#linear-gradient-428);
+}
+
+.cls-429 {
+    fill: url(#linear-gradient-429);
+}
+
+.cls-430 {
+    fill: url(#linear-gradient-430);
+}
+
+.cls-431 {
+    fill: url(#linear-gradient-431);
+}
+
+.cls-432 {
+    fill: url(#linear-gradient-432);
+}
+
+.cls-433 {
+    fill: url(#linear-gradient-433);
+}
+
+.cls-434 {
+    fill: url(#linear-gradient-434);
+}
+
+.cls-435 {
+    fill: url(#linear-gradient-435);
+}
+
+.cls-436 {
+    fill: url(#linear-gradient-436);
+}
+
+.cls-437 {
+    fill: url(#linear-gradient-437);
+}
+
+.cls-438 {
+    fill: url(#linear-gradient-438);
+}
+
+.cls-439 {
+    fill: url(#linear-gradient-439);
+}
+
+.cls-440 {
+    fill: url(#linear-gradient-440);
+}
+
+.cls-441 {
+    fill: url(#linear-gradient-441);
+}
+
+.cls-442 {
+    fill: url(#linear-gradient-442);
+}
+
+.cls-443 {
+    fill: url(#linear-gradient-443);
+}
+
+.cls-444 {
+    fill: url(#linear-gradient-444);
+}
+
+.cls-445 {
+    fill: url(#linear-gradient-445);
+}
+
+.cls-446 {
+    fill: url(#linear-gradient-446);
+}
+
+.cls-447 {
+    fill: url(#linear-gradient-447);
+}
+
+.cls-448 {
+    fill: url(#linear-gradient-448);
+}
+
+.cls-449 {
+    fill: url(#linear-gradient-449);
+}
+
+.cls-450 {
+    fill: url(#linear-gradient-450);
+}
+
+.cls-451 {
+    fill: url(#linear-gradient-451);
+}
+
+.cls-452 {
+    fill: url(#linear-gradient-452);
+}
+
+.cls-453 {
+    fill: url(#linear-gradient-453);
+}
+
+.cls-454 {
+    fill: url(#linear-gradient-454);
+}
+
+.cls-455 {
+    fill: url(#linear-gradient-455);
+}
+
+.cls-456 {
+    fill: url(#linear-gradient-456);
+}
+
+.cls-457 {
+    fill: url(#linear-gradient-457);
+}
+
+.cls-458 {
+    fill: url(#linear-gradient-458);
+}
+
+.cls-459 {
+    fill: url(#linear-gradient-459);
+}
+
+.cls-460 {
+    fill: url(#linear-gradient-460);
+}
+
+.cls-461 {
+    fill: url(#linear-gradient-461);
+}
+
+.cls-462 {
+    fill: url(#linear-gradient-462);
+}
+
+.cls-463 {
+    fill: url(#linear-gradient-463);
+}
+
+.cls-464 {
+    fill: url(#linear-gradient-464);
+}
+
+.cls-465 {
+    fill: url(#linear-gradient-465);
+}
+
+.cls-466 {
+    fill: url(#linear-gradient-466);
+}
+
+.cls-467 {
+    fill: url(#linear-gradient-467);
+}
+
+.cls-468 {
+    fill: url(#linear-gradient-468);
+}
+
+.cls-469 {
+    fill: url(#linear-gradient-469);
+}
+
+.cls-470 {
+    fill: url(#linear-gradient-470);
+}
+
+.cls-471 {
+    fill: url(#linear-gradient-471);
+}
+
+.cls-472 {
+    fill: url(#linear-gradient-472);
+}
+
+.cls-473 {
+    fill: url(#linear-gradient-473);
+}
+
+.cls-474 {
+    fill: url(#linear-gradient-474);
+}
+
+.cls-475 {
+    fill: url(#linear-gradient-475);
+}
+
+.cls-476 {
+    fill: url(#linear-gradient-476);
+}
+
+.cls-477 {
+    fill: url(#linear-gradient-477);
+}
+
+.cls-478 {
+    fill: url(#linear-gradient-478);
+}
+
+.cls-479 {
+    fill: url(#linear-gradient-479);
+}
+
+.cls-480 {
+    fill: url(#linear-gradient-480);
+}
+
+.cls-481 {
+    fill: url(#linear-gradient-481);
+}
+
+.cls-482 {
+    fill: url(#linear-gradient-482);
+}
+
+.cls-483 {
+    fill: url(#linear-gradient-483);
+}
+
+.cls-484 {
+    fill: url(#linear-gradient-484);
+}
+
+.cls-485 {
+    fill: url(#linear-gradient-485);
+}
+
+.cls-486 {
+    fill: url(#linear-gradient-486);
+}
+
+.cls-487 {
+    fill: url(#linear-gradient-487);
+}
+
+.cls-488 {
+    fill: url(#linear-gradient-488);
+}
+
+.cls-489 {
+    fill: url(#linear-gradient-489);
+}
+
+.cls-490 {
+    fill: url(#linear-gradient-490);
+}
+
+.cls-491 {
+    fill: url(#linear-gradient-491);
+}
+
+.cls-492 {
+    fill: url(#linear-gradient-492);
+}
+
+.cls-493 {
+    fill: url(#linear-gradient-493);
+}
+
+.cls-494 {
+    fill: url(#linear-gradient-494);
+}
+
+.cls-495 {
+    fill: url(#linear-gradient-495);
+}
+
+.cls-496 {
+    fill: url(#linear-gradient-496);
+}
+
+.cls-497 {
+    fill: url(#linear-gradient-497);
+}
+
+.cls-498 {
+    fill: url(#linear-gradient-498);
+}
+
+.cls-499 {
+    fill: url(#linear-gradient-499);
+}
+
+.cls-500 {
+    fill: url(#linear-gradient-500);
+}
+
+.cls-501 {
+    fill: url(#linear-gradient-501);
+}
+
+.cls-502 {
+    fill: url(#linear-gradient-502);
+}
+
+.cls-503 {
+    fill: url(#linear-gradient-503);
+}
+
+.cls-504 {
+    fill: url(#linear-gradient-504);
+}
+
+.cls-505 {
+    fill: url(#linear-gradient-505);
+}
+
+.cls-506 {
+    fill: url(#linear-gradient-506);
+}
+
+.cls-507 {
+    fill: url(#linear-gradient-507);
+}
+
+.cls-508 {
+    fill: url(#linear-gradient-508);
+}
+
+.cls-509 {
+    fill: url(#linear-gradient-509);
+}
+
+.cls-510 {
+    fill: url(#linear-gradient-510);
+}
+
+.cls-511 {
+    fill: url(#linear-gradient-511);
+}
+
+.cls-512 {
+    fill: url(#linear-gradient-512);
+}
+
+.cls-513 {
+    fill: url(#linear-gradient-513);
+}
+
+.cls-514 {
+    fill: url(#linear-gradient-514);
+}
+
+.cls-515 {
+    fill: url(#linear-gradient-515);
+}
+
+.cls-516 {
+    fill: url(#linear-gradient-516);
+}
+
+.cls-517 {
+    fill: url(#linear-gradient-517);
+}
+
+.cls-518 {
+    fill: url(#linear-gradient-518);
+}
+
+.cls-519 {
+    fill: url(#linear-gradient-519);
+}
+
+.cls-520 {
+    fill: url(#linear-gradient-520);
+}
+
+.cls-521 {
+    fill: url(#linear-gradient-521);
+}
+
+.cls-522 {
+    fill: url(#linear-gradient-522);
+}
+
+.cls-523 {
+    fill: url(#linear-gradient-523);
+}
+
+.cls-524 {
+    fill: url(#linear-gradient-524);
+}
+
+.cls-525 {
+    fill: url(#linear-gradient-525);
+}
+
+.cls-526 {
+    fill: url(#linear-gradient-526);
+}
+
+.cls-527 {
+    fill: url(#linear-gradient-527);
+}
+
+.cls-528 {
+    fill: url(#linear-gradient-528);
+}
+
+.cls-529 {
+    fill: url(#linear-gradient-529);
+}
+
+.cls-530 {
+    fill: url(#linear-gradient-530);
+}
+
+.cls-531 {
+    fill: url(#linear-gradient-531);
+}
+
+.cls-532 {
+    fill: url(#linear-gradient-532);
+}
+
+.cls-533 {
+    fill: url(#linear-gradient-533);
+}
+
+.cls-534 {
+    fill: url(#linear-gradient-534);
+}
+
+.cls-535 {
+    fill: url(#linear-gradient-535);
+}
+
+.cls-536 {
+    fill: url(#linear-gradient-536);
+}
+
+.cls-537 {
+    fill: url(#linear-gradient-537);
+}
+
+.cls-538 {
+    fill: url(#linear-gradient-538);
+}
+
+.cls-539 {
+    fill: url(#linear-gradient-539);
+}
+
+.cls-540 {
+    fill: url(#linear-gradient-540);
+}
+
+.cls-541 {
+    fill: url(#linear-gradient-541);
+}
+
+.cls-542 {
+    fill: url(#linear-gradient-542);
+}
+
+.cls-543 {
+    fill: url(#linear-gradient-543);
+}
+
+.cls-544 {
+    fill: url(#linear-gradient-544);
+}
+
+.cls-545 {
+    fill: url(#linear-gradient-545);
+}
+
+.cls-546 {
+    fill: url(#linear-gradient-546);
+}
+
+.cls-547 {
+    fill: url(#linear-gradient-547);
+}
+
+.cls-548 {
+    fill: url(#linear-gradient-548);
+}
+
+.cls-549 {
+    fill: url(#linear-gradient-549);
+}
+
+.cls-550 {
+    fill: url(#linear-gradient-550);
+}
+
+.cls-551 {
+    fill: url(#linear-gradient-551);
+}
+
+.cls-552 {
+    fill: url(#linear-gradient-552);
+}
+
+.cls-553 {
+    fill: url(#linear-gradient-553);
+}
+
+.cls-554 {
+    fill: url(#linear-gradient-554);
+}
+
+.cls-555 {
+    fill: url(#linear-gradient-555);
+}
+
+.cls-556 {
+    fill: url(#linear-gradient-556);
+}
+
+.cls-557 {
+    fill: url(#linear-gradient-557);
+}
+
+.cls-558 {
+    fill: url(#linear-gradient-558);
+}
+
+.cls-559 {
+    fill: url(#linear-gradient-559);
+}
+
+.cls-560 {
+    fill: url(#linear-gradient-560);
+}
+
+.cls-561 {
+    fill: url(#linear-gradient-561);
+}
+
+.cls-562 {
+    fill: url(#linear-gradient-562);
+}
+
+.cls-563 {
+    fill: url(#linear-gradient-563);
+}
+
+.cls-564 {
+    fill: url(#linear-gradient-564);
+}
+
+.cls-565 {
+    fill: url(#linear-gradient-565);
+}
+
+.cls-566 {
+    fill: url(#linear-gradient-566);
+}
+
+.cls-567 {
+    fill: url(#linear-gradient-567);
+}
+
+.cls-568 {
+    fill: url(#linear-gradient-568);
+}
+
+.cls-569 {
+    fill: url(#linear-gradient-569);
+}
+
+.cls-570 {
+    fill: url(#linear-gradient-570);
+}
+
+.cls-571 {
+    fill: url(#linear-gradient-571);
+}
+
+.cls-572 {
+    fill: url(#linear-gradient-572);
+}
+
+.cls-573 {
+    fill: url(#linear-gradient-573);
+}
+
+.cls-574 {
+    fill: url(#linear-gradient-574);
+}
+
+.cls-575 {
+    fill: url(#linear-gradient-575);
+}
+
+.cls-576 {
+    fill: url(#linear-gradient-576);
+}
+
+.cls-577 {
+    fill: url(#linear-gradient-577);
+}
+
+.cls-578 {
+    fill: url(#linear-gradient-578);
+}
