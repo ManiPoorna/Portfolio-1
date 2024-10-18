@@ -19,6 +19,26 @@ body {
     height: 100vh;
 }
 
+.hello-screen-container {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+.hello-screen-container.slide-out {
+    transform: translateY(-100%); /* Slide out to the top */
+    opacity: 0; /* Fade out */
+}
+
 .cls-1 {
     fill: url(#linear-gradient);
 }

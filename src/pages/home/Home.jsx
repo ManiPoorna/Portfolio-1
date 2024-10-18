@@ -3,7 +3,7 @@ import "./home.css";
 import contact from "../../assets/app-icons/contacts.svg";
 import projects from "../../assets/app-icons/files.svg";
 import mail from "../../assets/app-icons/mail.svg";
-import HelloScreen from "../../components/HelloScreen/HelloScreen";
+import HomeAnimation from "../../components/HelloAnimation/HelloAnimation"
 
 const Home = () => {
   useEffect(() => {});
@@ -60,7 +60,7 @@ const Home = () => {
 
   return (
     <>
-      <HelloScreen />
+      <HomeAnimation />
       <div className="glass">
         <ul className="dock" onMouseLeave={resetScale}>
           {/* {['😃', '😊', '😜', '😍', '🤩', '🥳', '🥶'].map((emoji, index) => ( */}
