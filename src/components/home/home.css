@@ -1,0 +1,77 @@
+:root {
+  --dock-bg: rgb(255, 255, 255, 0.3);
+}
+#root {
+  position: absolute;
+}
+html {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  align-items: flex-end;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(25, 170, 209, 1) 11.3%,
+    rgba(21, 65, 249, 1) 69.9%
+  );
+}
+
+.glass {
+  width: fit-content;
+  height: 5rem;
+  background: var(--dock-bg);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  position: fixed;
+  bottom: -3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dock {
+  --scale: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dock li {
+  font-size: calc(0.4rem * var(--scale));
+  padding: 0 0.5rem;
+  cursor: pointer;
+  position: relative;
+  top: calc((3rem * var(--scale) - 3rem) / 2 * -1);
+  transition: 0.15s all ease-out;
+}
+
+.dock li.loading {
+  animation: 1s loading ease-in infinite;
+}
+
+.dock li img{
+  width: 50px;
+}
+
+@keyframes loading {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(-40px);
+  }
+}
