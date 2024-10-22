@@ -61,11 +61,9 @@ body {
   top: calc((3rem * var(--scale) - 3rem) / 2 * -1);
   transition: 0.15s all ease-out;
 }
-
 .dock li:hover {
   cursor: url("../../assets/cursors/apple-cursor.png"), auto;
 }
-
 .dock li.loading {
   animation: 1s loading ease-in infinite;
 }
